@@ -280,6 +280,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-button {
@@ -345,7 +347,9 @@ body {
   }
 
   .social-login {
-    grid-template-columns: 1fr;
-  }
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+}
   
 }
