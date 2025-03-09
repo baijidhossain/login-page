@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     passwordToggle.addEventListener('click', function() {
       if (passwordInput.type === 'password') {
         passwordInput.type = 'text';
-        passwordToggleIcon.classList.remove('fa-eye');
-        passwordToggleIcon.classList.add('fa-eye-slash');
+        passwordToggleIcon.classList.remove('ri-eye-line');
+        passwordToggleIcon.classList.add('ri-eye-off-line');
       } else {
         passwordInput.type = 'password';
-        passwordToggleIcon.classList.remove('fa-eye-slash');
-        passwordToggleIcon.classList.add('fa-eye');
+        passwordToggleIcon.classList.remove('ri-eye-off-line');
+        passwordToggleIcon.classList.add('ri-eye-line');
       }
     });
     
