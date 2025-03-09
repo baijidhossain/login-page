@@ -24,7 +24,7 @@ body {
 /* Login card */
 .login-card {
   width: 100%;
-  max-width: 420px;
+  max-width: 450px;
   background-color: white;
   border-radius: 0.75rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
@@ -308,7 +308,7 @@ body {
 }
 
 .social-button i {
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 /* Card footer */
